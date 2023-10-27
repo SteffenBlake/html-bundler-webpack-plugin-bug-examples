@@ -20,9 +20,8 @@ export default {
             preprocessor: 'ejs',
             minify: 'auto',
 
-             // Seems to be bugged?
             integrity: {
-                enabled: true,
+                enabled: false,
                 hashFunctions: 'sha384',
             },
 
