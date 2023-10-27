@@ -1,0 +1,20 @@
+{
+  "name": "html-bundler-webpack-plugin-bug-example",
+  "version": "1.0.0",
+  "description": "Demonstrates bugged behavior with html-bundler-webpack-plugin integrity auto",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Steffen Blake",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "ejs": "^3.1.9",
+    "html-bundler-webpack-plugin": "^2.15.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
