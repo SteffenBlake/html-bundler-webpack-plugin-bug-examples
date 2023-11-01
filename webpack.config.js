@@ -19,17 +19,17 @@ export default {
             },
             preprocessor: 'ejs',
             minify: 'auto',
-
             integrity: {
-                enabled: false,
+                enabled: true,
                 hashFunctions: 'sha384',
             },
 
         })
     ],
     output: {
-        path: path.resolve(__dirname, 'dist/'),
+        path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
+        // publicPath: '/test',
         crossOriginLoading: "anonymous",
         clean: true
     },
